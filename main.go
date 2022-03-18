@@ -7,7 +7,7 @@ import (
 func main() {
 	var name string = "Berkay"
 	var greeting = createGreet(name)
-	fmt.Printf(greeting)
+	fmt.Printf("%s ", greeting)
 }
 
 func createGreet(name string) string {
